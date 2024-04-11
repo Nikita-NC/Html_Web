@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    padding: 20px 50px;
+  }
+
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 22px;
+  }
+
+  .logo {
+    display: inline-block;
+    margin-right: auto;
+  }
+
+  /* Hover effects */
+  .navbar a:hover {
+    color: white;
+    background-color:palevioletred;
+  }
+
+  /* main body  */
+  .view {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+  }
+
+  .view-left {
+    width: 60%;
+    margin-left: 100px;
+  }
+
+  .view-left h1 {
+    font-size: 60px;
+  }
+
+  .ice-cream {
+    color: orange;
+  }
+
+  .view-right img {
+    height: 400px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .view-right:hover img {
+    transform: scale(1.1);
+  }
+
+  button {
+    font-size: 20px;
+    padding: 8px;
+    border: 2px solid transparent;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  button:hover {
+    background-color: #ff7f00;
+    transform: scale(1.1);
+  }
